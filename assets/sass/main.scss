@@ -1,0 +1,40 @@
+$bg-colour: #4D394B;
+$typeface-main: Lato, sans-serif;
+$padding: 10px;
+
+body {
+	color: #fff;
+	background: $bg-colour;
+	font-family: $typeface-main;
+}
+
+#contact {
+	font-family: Arimo, sans-serif;
+	text-align: right;
+	padding: $padding;
+}
+
+#center-block {
+	text-align: center;
+}
+
+#icon {
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	// cursor: pointer;
+
+	background: top center no-repeat transparent url('../img/icon.png');
+	background-size: cover;
+}
+
+#tagline {
+	font-weight: normal;
+	font-size: 2.8em;
+}
+
+.app_store_badge{
+	height: 50px;
+	width: auto;
+	margin: $padding;
+}

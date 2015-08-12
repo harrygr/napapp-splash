@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nap App</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Live in the moment!">
+
+	<link rel="shortcut icon" href="assets/img/icon.png">
+	<link rel="apple-itouch-icon" href="assets/img/icon.png">
+
+	<link href='http://fonts.googleapis.com/css?family=Lato|Arimo' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<div id="container">
+		
+		<div id="contact">
+			support@getnapa<span style="display:none">naughtyspammer</span>pp.com
+		</div>
+
+		<div id="center-block">
+			<div id="icon"></div>
+			<h2 id="tagline">Live in the moment</h2>
+			<div class="badges">
+				<a class="app_store_link" href="#"><img class="app_store_badge" src="assets/img/ios_app_store_badge.svg" alt="Download Nap App from the iOS App Store"></a>
+				<a class="app_store_link" href="#"><img class="app_store_badge" src="assets/img/google_play_badge.svg" alt="Get Nap App from the Google Play Store"></a>
+			</div>
+		</div>
+	</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		function center_element(selector){
+
+			var $element = $(selector);
+
+			var padding = parseInt($element.css("paddingTop")) + parseInt($element.css("paddingBottom"));
+
+			$element.css({
+				marginTop: ($(window).height() - $element.height() - padding) / 2
+			});
+		}
+
+		$(function(){
+			center_element("#center-block");
+		});
+
+		$(window).resize(function(){
+			center_element("#center-block");
+		});
+	</script>
+</body>
+</html>
