@@ -24,6 +24,9 @@ body {
 #tagline {
   font-weight: normal;
   font-size: 2.8em; }
+  @media screen and (max-width: 480px) {
+    #tagline {
+      font-size: 1.9em; } }
 
 .app_store_badge {
   height: 50px;
