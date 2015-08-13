@@ -2,6 +2,8 @@ $bg-colour: #4D394B;
 $typeface-main: Lato, sans-serif;
 $padding: 10px;
 
+$break-small: 480px;
+
 body {
 	color: #fff;
 	background: $bg-colour;
@@ -34,6 +36,9 @@ body {
 #tagline {
 	font-weight: normal;
 	font-size: 2.8em;
+	@media screen and (max-width: $break-small) {
+		font-size: 1.9em;
+	}
 }
 
 .app_store_badge{
