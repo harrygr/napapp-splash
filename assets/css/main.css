@@ -6,7 +6,10 @@ body {
 #contact {
   font-family: Arimo, sans-serif;
   text-align: right;
-  padding: 10px; }
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 20px; }
 
 #center-block {
   text-align: center; }
