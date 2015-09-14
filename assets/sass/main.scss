@@ -25,8 +25,8 @@ body {
 
 #icon {
 	margin: 0 auto;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	// cursor: pointer;
 
 	background: top center no-repeat transparent url('../img/icon.png');
@@ -45,4 +45,7 @@ body {
 	height: 50px;
 	width: auto;
 	margin: $padding;
+	&.coming_soon{
+		opacity: .5;
+	}
 }

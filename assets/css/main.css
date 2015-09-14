@@ -16,8 +16,8 @@ body {
 
 #icon {
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background: top center no-repeat transparent url("../img/icon.png");
   background-size: cover; }
 
@@ -32,3 +32,5 @@ body {
   height: 50px;
   width: auto;
   margin: 10px; }
+  .app_store_badge.coming_soon {
+    opacity: .5; }
