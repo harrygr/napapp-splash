@@ -9,6 +9,9 @@ body {
 	background: $bg-colour;
 	font-family: $typeface-main;
 }
+a {
+	color: #aaa;
+}
 
 #contact {
 	font-family: Arimo, sans-serif;
@@ -24,13 +27,13 @@ body {
 }
 
 #icon {
-	margin: 0 auto;
-	width: 250px;
-	height: 250px;
-	// cursor: pointer;
+	//margin: 0 auto;
+	img {
+		width: 210px;
+		height:auto;
+		max-width: 60%;
+	}
 
-	background: top center no-repeat transparent url('../img/icon.png');
-	background-size: cover;
 }
 
 #tagline {

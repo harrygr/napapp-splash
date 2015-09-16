@@ -3,6 +3,9 @@ body {
   background: #4D394B;
   font-family: Lato, sans-serif; }
 
+a {
+  color: #aaa; }
+
 #contact {
   font-family: Arimo, sans-serif;
   text-align: right;
@@ -14,12 +17,10 @@ body {
 #center-block {
   text-align: center; }
 
-#icon {
-  margin: 0 auto;
-  width: 250px;
-  height: 250px;
-  background: top center no-repeat transparent url("../img/icon.png");
-  background-size: cover; }
+#icon img {
+  width: 210px;
+  height: auto;
+  max-width: 60%; }
 
 #tagline {
   font-weight: normal;
