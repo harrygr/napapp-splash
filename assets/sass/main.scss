@@ -16,10 +16,18 @@ a {
 #contact {
 	font-family: Arimo, sans-serif;
 	text-align: right;
+	box-sizing: border-box;
+	transition: all 1s;
 	padding: $padding;
 	position: absolute;
 	top: 20px;
 	right: 20px;
+	@media screen and (max-width: $break-small) {
+		text-align: center;
+    	display: block;
+    	width: 100%;
+    	right:0;
+	}
 }
 
 #center-block {
