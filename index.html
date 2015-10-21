@@ -14,44 +14,17 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<div id="container">
-		
-		<div id="contact">
-			support@getnapa<span style="display:none">naughtyspammer</span>pp.com
-		</div>
-
-		<div id="center-block">
-			<div id="icon"><img src="assets/img/icon.png" alt="NapApp Icon"></div>
-			<h2 id="tagline">Live in the moment</h2>
- 			<div class="badges">
-				<a class="app_store_link" href="#"><img class="app_store_badge coming_soon" src="assets/img/ios_app_store_badge.svg" alt="Download Nap App from the iOS App Store" title="Coming Soon!"></a>
-				<a class="app_store_link" href="https://play.google.com/store/apps/details?id=com.jtom.napapp.production&amp;hl=en"><img class="app_store_badge" src="assets/img/google_play_badge.svg" alt="Get Nap App from the Google Play Store"></a>
-			</div>
-		</div>
+	<div id="contact">
+		support@getnapa<span style="display:none">naughtyspammer</span>pp.com
 	</div>
 
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script>
-		function center_element(selector){
-
-			var $element = $(selector);
-
-			var padding = parseInt($element.css("paddingTop")) + parseInt($element.css("paddingBottom"));
-
-			var top_gutter = 65;
-
-			$element.css({
-				marginTop: Math.max(($(window).height() - $element.height() - padding) / 2, top_gutter)
-			});
-		}
-
-		$(function(){
-			center_element("#center-block");
-		});
-
-		$(window).resize(function(){
-			center_element("#center-block");
-		});
-	</script>
+	<div id="center-block">
+		<div id="icon"><img src="assets/img/icon.png" alt="NapApp Icon"></div>
+		<h2 id="tagline">Live in the moment</h2>
+		<div class="badges">
+			<a class="app_store_link" href="#"><img class="app_store_badge coming_soon" src="assets/img/ios_app_store_badge.svg" alt="Download Nap App from the iOS App Store" title="Coming Soon!"></a>
+			<a class="app_store_link" href="https://play.google.com/store/apps/details?id=com.jtom.napapp.production&amp;hl=en"><img class="app_store_badge" src="assets/img/google_play_badge.svg" alt="Get Nap App from the Google Play Store"></a>
+		</div>
+	</div>
 </body>
 </html>
