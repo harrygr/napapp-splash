@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var minifyCss = require('gulp-minify-css');
+var minifyCss = require('gulp-cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('default', ['styles']);

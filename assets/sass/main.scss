@@ -4,6 +4,10 @@ $padding: 15px;
 
 $break-small: 480px;
 
+$colour-facebook: #3b5998;
+$colour-twitter: #00aced;
+$colour-instagram: #517fa4;
+
 body, html {
 	height: 100%;
 	display: flex;
@@ -63,4 +67,21 @@ a {
 	@media screen and (max-width: $break-small) {
 		height: 38px;  	
 	}
+}
+
+.social-link {
+	margin: 0 $padding;
+	transition: color 200ms ease; 
+}
+
+.social-link-facebook:hover {
+	color: $colour-facebook;
+}
+
+.social-link-instagram:hover {
+	color: $colour-instagram;
+}
+
+.social-link-twitter:hover {
+	color: $colour-twitter;
 }
